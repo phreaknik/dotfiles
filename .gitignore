@@ -1,3 +1,17 @@
+# Ignore everything by default
+*
+
+# Safety specific ignores
+**/secrets*
+**/*.key
+**/*.pem
+**/.env
+**/*.env
+.ssh/
+.gnupg/
+
+
+# Manual ignores
 .config/zsh/.zcompdump-wirerider-5.9*
 .config/kde.org/*
 .config/dconf/
