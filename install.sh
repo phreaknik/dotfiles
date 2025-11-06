@@ -70,6 +70,7 @@ main() {
         ["${HOME}/.local/share/applications"]="${DOTFILES_DIR}/local/share/applications"
         ["${HOME}/.profile"]="${DOTFILES_DIR}/config/shell/profile"
         ["${HOME}/.zprofile"]="${DOTFILES_DIR}/config/shell/profile"
+        ["${HOME}/.gitconfig"]="${DOTFILES_DIR}/.gitconfig"
     )
     
     # Create symlinks
